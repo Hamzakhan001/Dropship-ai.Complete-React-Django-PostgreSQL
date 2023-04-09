@@ -1,0 +1,11 @@
+.center-div{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+@media screen and (max-width: 400px){
+.page-login {
+    margin: 1rem;
+}}

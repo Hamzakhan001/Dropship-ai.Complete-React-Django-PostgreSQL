@@ -1,0 +1,41 @@
+.navbar-custom ul{
+	margin-left: auto !important;
+}
+
+.logo-cls{
+	width: 74px;
+    height: 76px;
+}
+
+
+.menu_active{
+	font-weight: bold;
+	font-size: 1rem !important;
+	color: rgba(140, 198, 63, 1) !important;
+}
+
+.navbar-resize{
+	/* height: 8rem; */
+
+}
+
+.blur-three{
+	z-index: 9999;
+}
+
+
+@media screen and (max-width: 400px) {
+	.navbar-reset{
+		/* width: 30rem;
+		margin-left: -2rem; */
+		width: 100%;
+		margin-left: 0;
+
+	}
+	.blur-three{
+		z-index: 9999 !important;
+	}
+	.navbar-toggler{
+		z-index: 9999 !important;
+	}
+}

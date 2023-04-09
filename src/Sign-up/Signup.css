@@ -1,0 +1,36 @@
+.signup-form{
+	align-items: center;
+}
+
+.btn-signup{
+	background: rgba(90, 87, 194, 1);
+	color: white;
+	border: 1px solid rgba(90, 87, 194, 1);;
+	border-radius: 26px;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	height: 3rem;
+	width: 55rem;
+	padding: 0.5rem;
+	margin:0.5rem;
+	text-decoration: none;
+
+}
+
+.dropship-ai{
+	color: rgba(90, 87, 194, 1);
+}
+
+.form-control{
+	width: 30rem;
+	height: 3rem;
+}
+
+
+@media screen and (max-width: 400px) 
+{
+    .form-control{
+		width:100%
+	}
+}
